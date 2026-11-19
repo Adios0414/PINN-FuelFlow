@@ -1,0 +1,33 @@
+{
+ "target": "B737-800",
+ "arm": "C_ablation",
+ "init": "source",
+ "trainable": [
+  "aircraft_encoder.",
+  "shared_encoder.0."
+ ],
+ "n_trainable": 592,
+ "physics": {
+  "w_mass": 0.0,
+  "w_force": 0.0,
+  "w_phase": 0.0
+ },
+ "k": 2,
+ "draw": 2,
+ "lr": 0.001,
+ "source_seed": 44,
+ "seed": 44,
+ "train_flights": [
+  "F018_B-T014_D005",
+  "F006_B-T006_D028"
+ ],
+ "validation_flights": [
+  "F043_B-T062_D010",
+  "F044_B-T062_D014"
+ ],
+ "manifest_sha256": "562fc8527ba1c8f271a2d185e98a1c6c666f77206313fa4deb8f0e4c124fa0b5",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false,
+ "source_model": "results\\fleet_wide\\all_flights_no_physics"
+}

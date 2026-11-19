@@ -1,0 +1,28 @@
+{
+ "split": "fleet_wide",
+ "input_names": [
+  "ALT_QNH",
+  "MACH",
+  "FPA",
+  "TAS",
+  "SAT",
+  "IVV",
+  "GWC",
+  "wing_area",
+  "wing_span",
+  "max_weight",
+  "cruise_speed"
+ ],
+ "train_types": [
+  "A320",
+  "A320-NEO",
+  "A321",
+  "A321-NEO"
+ ],
+ "withheld_type": null,
+ "seeds": [
+  45,
+  46
+ ],
+ "split_seed": 42
+}

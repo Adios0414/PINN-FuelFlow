@@ -1,0 +1,48 @@
+{
+ "target": "B737-800",
+ "arm": "L3_ablation",
+ "init": "source",
+ "trainable": [
+  "aircraft_encoder.",
+  "output_layer.",
+  "fusion."
+ ],
+ "n_trainable": 5394,
+ "physics": {
+  "w_mass": 0.0,
+  "w_force": 0.0,
+  "w_phase": 0.0
+ },
+ "k": 16,
+ "draw": 7,
+ "lr": 0.001,
+ "source_seed": 44,
+ "seed": 49,
+ "train_flights": [
+  "F006_B-T006_D028",
+  "F011_B-T008_D022",
+  "F022_B-T015_D048",
+  "F056_B-T083_D006",
+  "F012_B-T009_D015",
+  "F027_B-T017_D029",
+  "F007_B-T006_D032",
+  "F003_B-T003_D035",
+  "F018_B-T014_D005",
+  "F057_B-T083_D011",
+  "F042_B-T061_D054",
+  "F010_B-T008_D020",
+  "F048_B-T064_D045",
+  "F017_B-T013_D030",
+  "F002_B-T003_D033",
+  "F001_B-T003_D003"
+ ],
+ "validation_flights": [
+  "F043_B-T062_D010",
+  "F044_B-T062_D014"
+ ],
+ "manifest_sha256": "562fc8527ba1c8f271a2d185e98a1c6c666f77206313fa4deb8f0e4c124fa0b5",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false,
+ "source_model": "results\\fleet_wide\\all_flights_no_physics"
+}

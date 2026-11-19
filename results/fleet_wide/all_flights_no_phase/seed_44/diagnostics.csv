@@ -1,0 +1,3 @@
+seed,partition,mass_accounting_ratio_mean,mass_accounting_ratio_median,fpa_violation_rate,gwc_violation_rate_valid_gate,gwc_valid_gate_fraction,force_samples,transition_count,ff1_transition_gap,ff2_transition_gap
+44,validation,0.9915703122023964,0.9899408991411915,9.286200705751254e-05,0.0006345389573523027,0.9199784929718104,64612,91,0.0,0.0
+44,test,0.9904143224252602,0.9944071370559507,0.0007263939429920446,0.0015515264171732238,0.9256263138541804,143173,183,0.0,0.0

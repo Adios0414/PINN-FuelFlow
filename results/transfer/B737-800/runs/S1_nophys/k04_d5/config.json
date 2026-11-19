@@ -1,0 +1,33 @@
+{
+ "target": "B737-800",
+ "arm": "S1_nophys",
+ "init": "scratch",
+ "trainable": [
+  "*"
+ ],
+ "n_trainable": 64338,
+ "physics": {
+  "w_mass": 0.0,
+  "w_force": 0.0,
+  "w_phase": 0.0
+ },
+ "k": 4,
+ "draw": 5,
+ "lr": 0.001,
+ "source_seed": 42,
+ "seed": 47,
+ "train_flights": [
+  "F010_B-T008_D020",
+  "F023_B-T015_D050",
+  "F054_B-T082_D042",
+  "F021_B-T014_D040"
+ ],
+ "validation_flights": [
+  "F043_B-T062_D010",
+  "F044_B-T062_D014"
+ ],
+ "manifest_sha256": "562fc8527ba1c8f271a2d185e98a1c6c666f77206313fa4deb8f0e4c124fa0b5",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false
+}

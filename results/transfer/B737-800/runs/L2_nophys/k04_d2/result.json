@@ -1,0 +1,21 @@
+{
+ "trainable_parameters": [
+  "aircraft_encoder.0.weight",
+  "aircraft_encoder.0.bias",
+  "output_layer.weight",
+  "output_layer.bias"
+ ],
+ "best_validation_data_mse": 0.0041031303481638345,
+ "best_epoch": 35,
+ "epochs_run": 60,
+ "train_seconds": 39.32525259999966,
+ "n_mass_windows": 57,
+ "n_transitions": 59,
+ "n_train_flights": 4,
+ "n_train_records": 28275,
+ "test_R2": 0.9213217648214076,
+ "test_RMSE": 0.10174169485168608,
+ "test_MAE": 0.06448793122768443,
+ "test_MAPE": 12.642232913780676,
+ "test_burn_abs_error_pct": 2.38143111258336
+}

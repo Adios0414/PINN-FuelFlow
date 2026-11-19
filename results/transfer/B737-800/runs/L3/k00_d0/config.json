@@ -1,0 +1,62 @@
+{
+ "target": "B737-800",
+ "arm": "L3",
+ "init": "source",
+ "trainable": [
+  "aircraft_encoder.",
+  "output_layer.",
+  "fusion."
+ ],
+ "n_trainable": 5394,
+ "physics": {
+  "w_mass": 0.1,
+  "w_force": 10.0,
+  "w_phase": 0.02
+ },
+ "k": 0,
+ "draw": 0,
+ "lr": 0.001,
+ "source_seed": 42,
+ "seed": 42,
+ "train_flights": [
+  "F009_B-T007_D017",
+  "F027_B-T017_D029",
+  "F056_B-T083_D006",
+  "F017_B-T013_D030",
+  "F041_B-T060_D059",
+  "F018_B-T014_D005",
+  "F011_B-T008_D022",
+  "F019_B-T014_D008",
+  "F012_B-T009_D015",
+  "F047_B-T064_D039",
+  "F015_B-T009_D049",
+  "F057_B-T083_D011",
+  "F013_B-T009_D018",
+  "F010_B-T008_D020",
+  "F042_B-T061_D054",
+  "F054_B-T082_D042",
+  "F008_B-T007_D013",
+  "F016_B-T013_D026",
+  "F006_B-T006_D028",
+  "F023_B-T015_D050",
+  "F021_B-T014_D040",
+  "F001_B-T003_D003",
+  "F048_B-T064_D045",
+  "F014_B-T009_D044",
+  "F055_B-T082_D046",
+  "F026_B-T017_D024",
+  "F022_B-T015_D048",
+  "F002_B-T003_D033",
+  "F020_B-T014_D037",
+  "F003_B-T003_D035",
+  "F007_B-T006_D032"
+ ],
+ "validation_flights": [
+  "F043_B-T062_D010",
+  "F044_B-T062_D014"
+ ],
+ "manifest_sha256": "562fc8527ba1c8f271a2d185e98a1c6c666f77206313fa4deb8f0e4c124fa0b5",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false
+}

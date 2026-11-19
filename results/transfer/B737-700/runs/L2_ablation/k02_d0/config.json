@@ -1,0 +1,32 @@
+{
+ "target": "B737-700",
+ "arm": "L2_ablation",
+ "init": "source",
+ "trainable": [
+  "aircraft_encoder.",
+  "output_layer."
+ ],
+ "n_trainable": 210,
+ "physics": {
+  "w_mass": 0.0,
+  "w_force": 0.0,
+  "w_phase": 0.0
+ },
+ "k": 2,
+ "draw": 0,
+ "lr": 0.001,
+ "source_seed": 42,
+ "seed": 42,
+ "train_flights": [
+  "F030_B-T053_D060",
+  "F049_B-T065_D004"
+ ],
+ "validation_flights": [
+  "F037_B-T057_D053"
+ ],
+ "manifest_sha256": "d5c8ce4197d0d7ae2a585279050562d30d9ff3385bce08ab61f7d11a53e76bb7",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false,
+ "source_model": "results\\fleet_wide\\all_flights_no_physics"
+}

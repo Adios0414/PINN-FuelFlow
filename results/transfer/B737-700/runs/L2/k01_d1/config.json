@@ -1,0 +1,30 @@
+{
+ "target": "B737-700",
+ "arm": "L2",
+ "init": "source",
+ "trainable": [
+  "aircraft_encoder.",
+  "output_layer."
+ ],
+ "n_trainable": 210,
+ "physics": {
+  "w_mass": 0.1,
+  "w_force": 10.0,
+  "w_phase": 0.02
+ },
+ "k": 1,
+ "draw": 1,
+ "lr": 0.001,
+ "source_seed": 43,
+ "seed": 43,
+ "train_flights": [
+  "F028_B-T053_D043"
+ ],
+ "validation_flights": [
+  "F037_B-T057_D053"
+ ],
+ "manifest_sha256": "d5c8ce4197d0d7ae2a585279050562d30d9ff3385bce08ab61f7d11a53e76bb7",
+ "epochs": 250,
+ "early_stopping_patience": 25,
+ "smoke": false
+}

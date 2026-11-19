@@ -1,0 +1,10 @@
+{
+ "trainable_parameters": [],
+ "n_train_flights": 0,
+ "n_train_records": 0,
+ "test_R2": 0.44031576602099076,
+ "test_RMSE": 0.2713583561763545,
+ "test_MAE": 0.23293580789260254,
+ "test_MAPE": 37.58857312179839,
+ "test_burn_abs_error_pct": 29.47433148402829
+}
